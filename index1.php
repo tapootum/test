@@ -13,15 +13,12 @@
 									width:200, 
 									height:80, 
 									rangeHi:"minute",	// <- no comma on last item!
-									onComplete	:  coCo//countdownComplete
+									onComplete	:  countdownComplete
 
 									});
-			function coCo(){
-					test1.submit();
-			}
 			function countdownComplete(){
 					//alert('ttt');
-					document.forms["test1"].submit();
+					document.test1.submit();
 			}
 
 		
